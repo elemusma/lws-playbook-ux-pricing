@@ -20,3 +20,26 @@ jQuery('.mobile-packages ul.box-features li div[data-tooltip] span').click(funct
   console.log(boxInfoTwo.offsetHeight);
   }
   equalHeightBox();
+
+  // for labels below price
+  function setEqualHeight(className) {
+    // Select all elements with the given class name
+    const elements = document.querySelectorAll(`.${className}`);
+    
+    // Calculate the maximum height
+    let maxHeight = 0;
+    elements.forEach(element => {
+        const height = element.clientHeight; // Get the height of each element
+        if (height > maxHeight) {
+            maxHeight = height; // Update maxHeight if current is taller
+        }
+    });
+
+    // Set all elements to the maximum height
+    elements.forEach(element => {
+        element.style.height = `${maxHeight}px`;
+    });
+}
+
+// Call the function with the class name
+setEqualHeight('equal-height');

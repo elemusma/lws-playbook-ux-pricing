@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="compare-plans-fix.css">
 </head>
 <body>
 <!--main -->
@@ -34,7 +35,7 @@
     </div>
     </div>
     <div class="box-body">
-    <p style="">Pay as you go includes</p>
+    <p class="equal-height">Pay as you go includes</p>
     <ul class="box-features">
     <li>
     <span>✓ </span> Unmoderated and moderated testing with the PlaybookUX panel
@@ -57,32 +58,63 @@
     </div>
     <!--end  price box-->
     <!-- price box-->
+    <div class="prices-box" style="background: #f0feff">
+        <div class="inner-box">
+        <div class="box-header">
+        <h3 class="">Scale</h3>
+        <div class="info box-info-height-three">
+        <h5>$5,400</h5>
+        <p>billed annually</p>
+        </div>
+        </div>
+        <div class="box-body">
+        <p class="equal-height">Everything in Pay as you go, plus</p>
+        <ul class="box-features">
+        <li>
+        <span>✓ </span>Moderated testing with your own customers
+        </li>
+        <li>
+        <span>✓ </span>Segmentation
+        </li>
+        <li>
+        <span>✓ </span>Surveys
+        </li>
+        <li>
+        <span>✓ </span>Live notes (moderated)
+        </li>
+        
+        </ul>
+        </div>
+        <div class="box-footer">
+        <a href="https://app.playbookux.com/sign-up" target="_blank" class="signup" rel="noopener">Sign up</a>
+        </div>
+        </div>
+        </div>
+        <!--end  price box-->
+    <!-- price box-->
     <div class="prices-box" style="background: #f1f8ff">
     <div class="inner-box">
     <div class="box-header">
-    <h3 class="">Grow</h3>
+    <h3 class="">Pro</h3>
     <div class="info box-info-height-original">
-    <h5>$267</h5>
-    <p>per month, when billed yearly, $290 per month when billed monthly</p>
+    <h5>$8,800</h5>
+    <p>billed annually</p>
     </div>
     </div>
     <div class="box-body">
-    <p>Everything in Pay as you go</p>
+    <p class="equal-height">Everything in Scale plus&nbsp;</p>
     <ul class="box-features">
     <li>
-    <span>✓ </span> Card sorting and tree testing with the PlaybookUX panel
+    <span>✓ </span> <span>Custom consent forms</span>
     </li>
     <li>
-    <span>✓ </span> Send your own users unmoderated, card sorts and tree tests
+    <span>✓ </span> <span>Approval flow</span>
     </li>
     <li>
-    <span>✓ </span> Tags & reactions
+    <span>✓ </span> <span>Invisible observers</span>
     </li>
     <li>
-    <span>✓ </span> Universal search
-    </li>
-    <li>
-    <span>✓ </span> Templates
+    <span>✓ </span> <span>SSO & SAML</span>
     </li>
     </ul>
     </div>
@@ -92,40 +124,7 @@
     </div>
     </div>
     <!--end  price box-->
-    <!-- price box-->
-    <div class="prices-box" style="background: #f0feff">
-    <div class="inner-box">
-    <div class="box-header">
-    <h3 class="">Scale</h3>
-    <div class="info box-info-height-three">
-    <h5>$450</h5>
-    <p>per month, when billed yearly, $490 per month when billed monthly</p>
-    </div>
-    </div>
-    <div class="box-body">
-    <p>Everything in Grow</p>
-    <ul class="box-features">
-    <li>
-    <span>✓ </span>Moderated testing with your own customers
-    </li>
-    <li>
-    <span>✓ </span>Segmentation
-    </li>
-    <li>
-    <span>✓ </span>Surveys
-    </li>
-    <li>
-    <span>✓ </span>Live notes (moderated)
-    </li>
     
-    </ul>
-    </div>
-    <div class="box-footer">
-    <a href="https://app.playbookux.com/sign-up" target="_blank" class="signup" rel="noopener">Sign up</a>
-    </div>
-    </div>
-    </div>
-    <!--end  price box-->
     <!-- price box-->
     <div class="prices-box" style="background: #eafff0">
     <div class="inner-box">
@@ -136,31 +135,28 @@
     </div>
     </div>
     <div class="box-body">
-    <p style="">Everything in Scale</p>
+    <p class="equal-height">Everything in Pro, plus</p>
     <ul class="box-features">
     <li>
-    <span>✓ </span> Bulk pricing discounts & custom session limits
+    <span>✓ </span> <span>Bulk pricing discounts & custom session limits</span>
     </li>
     <li>
-    <span>✓ </span> Dedicated customer success manager
+    <span>✓ </span> <span>Dedicated customer success manager</span>
     </li>
     <li>
-    <span>✓ </span> Custom onboarding
+    <span>✓ </span> <span>Custom onboarding</span>
     </li>
     <li>
-    <span>✓ </span> Custom contracts & terms of service
+    <span>✓ </span> <span>Custom contracts & terms of service</span>
     </li>
     <li>
-    <span>✓ </span> 99.99% guaranteed uptime SLA
+    <span>✓ </span> <span>99.99% guaranteed uptime SLA</span>
     </li>
     <li>
-    <span>✓ </span> Invoice payments
+    <span>✓ </span> <span>Invoice payments</span>
     </li>
     <li>
-    <span>✓ </span>SSO & SAML
-    </li>
-    <li>
-    <span>✓ </span> Unlimited seats
+    <span>✓ </span> <span>Unlimited seats</span>
     </li>
     </ul>
     </div>
@@ -202,7 +198,7 @@
     <div class="compare-plans" id="pricing-compare">
     <table width="100%">
     <thead>
-    <tr>
+    <tr class="compare-plans head-row">
     <th class="one "></th>
     <th class="two">
     <h3 class="center">Pay as you go</h3>
@@ -211,17 +207,18 @@
     </div>
     </th>
     <th class="three">
-    <h3 class="center">Grow</h3>
-    <div class="signup-btn center">
-    <a href="https://app.playbookux.com/sign-up" target="_blank" class="signup" rel="noopener">Sign up</a>
-    </div>
-    </th>
-    <th class="four">
     <h3 class="center">Scale</h3>
     <div class="signup-btn center">
     <a href="https://app.playbookux.com/sign-up" target="_blank" class="signup" rel="noopener">Sign up</a>
     </div>
     </th>
+    <th class="four">
+    <h3 class="center">Pro</h3>
+    <div class="signup-btn center">
+    <a href="https://app.playbookux.com/sign-up" target="_blank" class="signup" rel="noopener">Sign up</a>
+    </div>
+    </th>
+    
     <th class="five">
     <h3 class="center">Enterprise</h3>
     <div class="signup-btn center">
@@ -401,7 +398,26 @@
     </th>
     <td class="two"></td>
     <td class="three">
+    <p>$20 / participant</p>
+    </td>
+    <td class="four">
     <p></p>
+    </td>
+    <td class="five">
+    <p>Custom</p>
+    </td>
+    </tr>
+    <tr>
+    <th class="one theading">
+    <div class="option disabled">
+    <div class="hover-text">Participants from the PlaybookUX panel will complete
+    your survey.</div>
+    First click testing
+    </div>
+    </th>
+    <td class="two"></td>
+    <td class="three">
+    <p>$20 / participant</p>
     </td>
     <td class="four">
     <p>$20 / participant</p>
@@ -410,8 +426,28 @@
     <p>Custom</p>
     </td>
     </tr>
-    <!-- -->
-    <tr class="heading">
+    <tr>
+    <th class="one theading">
+    <div class="option disabled">
+    <div class="hover-text">Participants from the PlaybookUX panel will complete
+    your survey.</div>
+    Five Second Testing
+    </div>
+    </th>
+    <td class="two"></td>
+    <td class="three">
+    <p>$20 / participant</p>
+    </td>
+    <td class="four">
+    <p>$20 / participant</p>
+    </td>
+    <td class="five">
+    <p>Custom</p>
+    </td>
+    </tr>
+    <!-- start of Use your own participants -->
+
+    <!-- <tr class="heading">
     <th class="one theading">
     <h3>USE YOUR OWN PARTICIPANTS</h3>
     </th>
@@ -525,9 +561,9 @@
     <td class="five">
     <p>Custom</p>
     </td>
-    </tr>
+    </tr> -->
     
-    <!-- -->
+    <!-- end of Use your own participants -->
     <!-- -->
     <tr class="heading">
     <th class="one theading">
@@ -543,6 +579,32 @@
     <div class="option disabled">
     <div class="hover-text">Target participants by job role, industry, company
     size and other professional characteristics.</div>
+    <span>Access to the PlaybookUX panel of participants</span>
+    </div>
+    </th>
+    <td class="two"> <span>✓ </span></td>
+    <td class="three"><span>✓ </span></td>
+    <td class="four"><span>✓ </span></td>
+    <td class="five"> <span>✓ </span></td>
+    </tr>
+    <tr>
+    <th class="one theading">
+    <div class="option disabled">
+    <div class="hover-text">Target participants by job role, industry, company
+    size and other professional characteristics.</div>
+    <span>Bring your own participants testing - All methods</span>
+    </div>
+    </th>
+    <td class="two"> <span> </span></td>
+    <td class="three"><span> </span></td>
+    <td class="four"><span> </span></td>
+    <td class="five"> <span>✓ </span></td>
+    </tr>
+    <tr>
+    <th class="one theading">
+    <div class="option disabled">
+    <div class="hover-text">Target participants by job role, industry, company
+    size and other professional characteristics.</div>
     B2B Recruiting
     </div>
     </th>
@@ -551,6 +613,7 @@
     <td class="four"><span>✓ </span></td>
     <td class="five"> <span>✓ </span></td>
     </tr>
+    
     <tr>
     <th class="one theading">
     <div class="option disabled">
@@ -608,7 +671,7 @@
     <div class="option disabled">
     <div class="hover-text">Tag patterns and themes to build out a central
     repository and stay on top of customer insights.</div>
-    Tags & Reactions
+    <span>Tags &amp; Reactions</span>
     </div>
     </th>
     <td class="two"><span>✓</span></td>
@@ -621,7 +684,7 @@
     <div class="option disabled">
     <div class="hover-text">Easily search notes, clips, transcripts, reports and
     tags across all projects.</div>
-    Universal Search
+    <span>Universal Search</span>
     </div>
     </th>
     <td class="two"><span>✓</span></td>
@@ -647,7 +710,7 @@
     <div class="option disabled">
     <div class="hover-text">Save time setting up studies by creating saved
     persona and question templates.</div>
-    Saved Audience & Test Scripts
+    Saved Audience &amp; Test Scripts
     </div>
     </th>
     <td class="two"><span>✓</span></td>
@@ -672,7 +735,7 @@
     <th class="one theading">
     <div class="option disabled">
     <div class="hover-text">Turn on PII-blocking for specific unmoderated tasks
-    to blur out a participant’s personal information.</div>
+    to blur out a participant's personal information.</div>
     PII Blocker
     </div>
     </th>
@@ -702,8 +765,8 @@
     </div>
     </th>
     <td class="two"><span></span></td>
-    <td class="three"><span></span></td>
-    <td class="four"><span>✓ </span></td>
+    <td class="three"><span>✓ </span></td>
+    <td class="four"><span></span></td>
     <td class="five"><span>✓ </span></td>
     </tr>
     <tr>
@@ -715,8 +778,8 @@
     </div>
     </th>
     <td class="two"><span></span></td>
-    <td class="three"><span></span></td>
-    <td class="four"><span>✓ </span></td>
+    <td class="three"><span>✓ </span></td>
+    <td class="four"><span></span></td>
     <td class="five"><span>✓ </span></td>
     </tr>
     <tr>
@@ -730,6 +793,19 @@
     <td class="two"><span></span></td>
     <td class="three"><span></span></td>
     <td class="four"><span></span></td>
+    <td class="five"><span>✓ </span></td>
+    </tr>
+    <tr>
+    <th class="one theading">
+    <div class="option disabled">
+    <div class="hover-text">Admins can designate the team members who require approval prior to launching a project.
+    </div>
+    <span>Custom consent forms</span>
+    </div>
+    </th>
+    <td class="two"><span></span></td>
+    <td class="three"><span></span></td>
+    <td class="four"><span>✓ </span></td>
     <td class="five"><span>✓ </span></td>
     </tr>
     <!-- -->
@@ -860,7 +936,7 @@
     <!-- -->
     <tr class="heading">
     <th class="one theading">
-    <h3>SUPPORT</h3>
+    <h3>SUPPORT & SECURITY</h3>
     </th>
     <td class="two"></td>
     <td class="three"></td>
@@ -869,10 +945,28 @@
     </tr>
     <tr>
     <th class="one theading">
-    <div class="option disabled">Chat support</div>
+    <div class="option disabled">SOC2 Type II, ISO 27701, ISO 27001 Certified Platform</div>
     </th>
     <td class="two"> <span>✓ </span></td>
     <td class="three"><span>✓ </span></td>
+    <td class="four"><span>✓ </span></td>
+    <td class="five"> <span>✓ </span></td>
+    </tr>
+    <tr>
+    <th class="one theading">
+    <div class="option disabled">24-hour chat support</div>
+    </th>
+    <td class="two"> <span>✓ </span></td>
+    <td class="three"><span>✓ </span></td>
+    <td class="four"><span>✓ </span></td>
+    <td class="five"> <span>✓ </span></td>
+    </tr>
+    <tr>
+    <th class="one theading">
+    <div class="option disabled">Custom security review</div>
+    </th>
+    <td class="two"> <span></span></td>
+    <td class="three"><span></span></td>
     <td class="four"><span>✓ </span></td>
     <td class="five"> <span>✓ </span></td>
     </tr>
@@ -1279,11 +1373,11 @@
     </li>
     </ul>
     
-    <p><strong>SUPPORT</strong></p>
+    <p><strong>SUPPORT & SECURITY</strong></p>
     <ul class="box-features">
     <li>
     <div>
-    <span>Chat support</span>
+    <span>24-hour chat support</span>
     <ul>
     <li>✓ </li>
     </ul>
@@ -1697,11 +1791,11 @@
     </li>
     </ul>
     
-    <p><strong>SUPPORT</strong></p>
+    <p><strong>SUPPORT & SECURITY</strong></p>
     <ul class="box-features">
     <li>
     <div>
-    <span>Chat support</span>
+    <span>24-hour chat support</span>
     <ul>
     <li>✓ </li>
     </ul>
@@ -2110,11 +2204,11 @@
     </li>
     </ul>
     
-    <p><strong>SUPPORT</strong></p>
+    <p><strong>SUPPORT & SECURITY</strong></p>
     <ul class="box-features">
     <li>
     <div>
-    <span>Chat support</span>
+    <span>24-hour chat support</span>
     <ul>
     <li>✓ </li>
     </ul>
@@ -2514,11 +2608,11 @@
     </li>
     </ul>
     
-    <p><strong>SUPPORT</strong></p>
+    <p><strong>SUPPORT & SECURITY</strong></p>
     <ul class="box-features">
     <li>
     <div>
-    <span>Chat support</span>
+    <span>24-hour chat support</span>
     <ul>
     <li>✓</li>
     </ul>
@@ -2557,5 +2651,6 @@
     <!-- emd et-main-area-->
 
     <script src="script.js" defer></script>
+    <!-- <script src="compare-plans-fix.js" defer></script> -->
 </body>
 </html>

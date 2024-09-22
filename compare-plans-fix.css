@@ -1,0 +1,8 @@
+/* .compare-plans.head-row {
+    position:sticky !important;
+    top:0;
+    z-index:2;
+} */
+.compare-plans-active {
+    position:fixed;
+}
