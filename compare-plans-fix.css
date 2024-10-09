@@ -1,8 +1,27 @@
-/* .compare-plans.head-row {
+.compare-plans.head-row {
     position:sticky !important;
     top:0;
     z-index:2;
-} */
+}
 .compare-plans-active {
     position:fixed;
+}
+
+.box-header {
+    position: sticky !important;
+    top: 25px;
+    z-index: 1;
+}
+
+.prices-tabes .prices-box:first-child .box-header {
+    background: #f4f4f4;
+}
+.prices-tabes .prices-box:nth-child(2) .box-header {
+    background: #f1f8ff;
+}
+.prices-tabes .prices-box:nth-child(3) .box-header {
+    background: #f0feff;
+}
+.prices-tabes .prices-box:nth-child(4) .box-header {
+    background: #eafff0;
 }
