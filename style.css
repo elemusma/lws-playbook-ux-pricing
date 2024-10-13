@@ -59,7 +59,7 @@ div#et-main-area * {
     margin: 10px 0;
 }
 .prices-tabes .box-header {
-    min-height: 150px;
+    min-height: 112px;
 }
 .prices-tabes .box-header.center {
     text-align: center;
@@ -89,7 +89,7 @@ div#et-main-area * {
     margin: 10px 0;
 }
 .prices-tabes .box-body {
-    padding-top: 75px;
+    padding-top: 40px;
 }
 .box-info-height-one,.box-info-height-four{
     margin-top:10px;
