@@ -59,7 +59,7 @@ div#et-main-area * {
     margin: 10px 0;
 }
 .prices-tabes .box-header {
-    min-height: 112px;
+    height: 112px;
 }
 .prices-tabes .box-header.center {
     text-align: center;
